@@ -1,0 +1,293 @@
+*{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex; /* flex likhne se , navbar me saari cheezje ek row me aa jaayengi */
+    align-items: center; /** navbar me sab vertically center me aa jaayega**/
+    justify-content: space-evenly; /** sare content x axis pe jo hai navbar me usko equily spread kar dega **/
+}
+
+                                                           /* Navbar Amazon logo */
+.amazon-logo{
+    height: 55px;
+    width: 100px;
+    background-image: url("./Images/amazon_logo.png");
+    background-size: cover;    
+}
+
+.border:hover{
+    border: 1.5px solid white;
+    
+}
+
+                                                           /**  Navbar Address div **/
+
+#add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+#add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;  /**  add logo or india same row me aa jaayega**/
+    align-items: center;
+}
+
+                                                             /** Navbar Search Box**/
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 670px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+#serachBoxSelect{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px;
+    border: none;
+
+
+}
+.SearchBoxInput{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.serach-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center; /** horizontally center**/
+    align-items: center;   /** vertically center **/
+    font-size: 1.3rem;
+    background-color: #febd68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px;
+    color: #0f1111;
+}
+
+/**  Navbar Flag**/
+.nav-flag{
+    display: flex;
+}
+.flag{
+    height: 16.2px;
+    width: 21.6px;
+    background-image: url("./Images/flag.png");
+}
+
+.flagEn{
+    margin-left: 5px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+                                                        /** Navbar Sign-in**/
+.signin-up{
+    color: #ffffff;
+    font-size: 0.74rem;
+}
+.account{
+    background-color: black;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 0;
+    font-size: 0.9rem;
+}
+
+/** Navbar Return and order**/
+
+.return{
+    font-size: 0.74rem;
+}
+.order{
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+/** Cart **/
+.cart{
+    display: flex;
+}
+.cart-icon{
+    font-size: 25px;
+}
+.kart{
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 2px;
+}
+
+/** Pannel **/
+
+.pannel{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pannel-option p{
+    display:inline;
+    margin-left: 12px;
+    font-weight:500;
+    
+    
+}
+.pannel-option{
+    width: 80%;
+    font-size: 0.85rem;
+}
+.prime{
+    background-color: #222f3d;
+    border: none;
+    color: white;
+}
+.pannel-div{
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+/** Hero section **/
+.hero-section{
+    background-image:url("./Images/hero_image.jpg");
+    background-size: cover;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex; /*text center me aa jaayega*/
+    align-items: center; /* verically center me */
+    justify-content: center; /* horizontally center */
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+
+}
+
+.hero-msg a{
+    color: #007185;
+}
+
+ /* content section*/
+ .content-section{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+ }
+ .box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    
+ }
+ .box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+ }
+ .box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+ }
+ .box-content p{
+    color: #007185;
+ }
+
+
+ /* Footer */
+
+ footer{
+    margin-top:15px ;
+ }
+ .foot-pannel1{
+    background-color: #37475a;
+    color: white;
+    display: flex;   /* saari chiz center pe*/
+    justify-content: center; /* horizontally center*/
+    height: 50px;
+    align-items: center; /* vertically center */
+ }
+ .foot-pannel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex; /* chaaro  ek saath aa jaayega */
+    justify-content: space-evenly;
+ }
+ ul{
+    margin-top: 20px;
+ }
+ ul a{
+    display: block; /* saare single line me aa jaayenge */
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+ }
+
+/* pannel 3*/
+.foot-pannel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* vertically center */
+}
+.logo{
+    background-image: url("./Images/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+/*   Pannel 4 */
+
+.foot-pannel4{
+    background-color: #0f1111;
+    color: white;
+    height: 70px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.pages{
+    font-size: 0.7rem;   
+}
+
+.copyright
+{
+    padding-top: 5px;
+}
